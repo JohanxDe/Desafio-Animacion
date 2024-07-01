@@ -123,6 +123,21 @@ footer{
 
 }
 
+.iconos-contacto a {
+    text-decoration: none;
+    color: black;
+}
+
+.iconos-contacto a:hover{
+    color: #37B7C3;
+    
+}
+
+.iconos-contacto i:hover{
+    transform: scale(1.5);
+    margin: 5px;
+}
+
 @keyframes anim{
     0% {background-color: #ff0;} /*Amarillo*/
    25% {background-color: rgb(255, 255, 255);} /*Blanco*/
